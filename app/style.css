@@ -2,22 +2,23 @@ body {
     margin: 0;
     overflow: hidden;
     background: transparent;
-}
-
-#dock {
+  }
+  
+  #dock {
     display: flex;
-    gap: 10px;
-    padding: 10px;
-    background: rgba(148, 72, 72, 0.5);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     border-radius: 10px;
-}
-
-.icon {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.2s;
-}
-
-.icon:hover {
-    transform: scale(1.2);
-}
+    padding: 10px;
+    cursor: grab;
+  }
+  
+  #dock:active {
+    cursor: grabbing;
+  }
+  
+  .icon {
+    margin: 5px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
