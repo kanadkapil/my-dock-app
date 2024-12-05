@@ -1,0 +1,18 @@
+{
+    "orientation": "horizontal",
+    "iconSize": 50,
+    "zoomEffect": true,
+    "startOnBoot": true,
+    "icons": [
+        {
+            "name": "Chrome",
+            "iconPath": "app/icons/chrome.png",
+            "appPath": "C:/Program Files/Google/Chrome/Application/chrome.exe"
+        },
+        {
+            "name": "Explorer",
+            "iconPath": "app/icons/explorer.png",
+            "appPath": "C:/Windows/explorer.exe"
+        }
+    ]
+}

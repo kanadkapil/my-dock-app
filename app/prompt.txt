@@ -1,0 +1,28 @@
+
+
+"I want to create a fully customizable dock for my PC with unique features. The dock should run on startup and display essential applications, using only black and white icons for a clean, minimalistic look. It should support both horizontal and vertical orientations, with the ability to drag the entire dock around the screen. Users can customize the size of app icons, and while hovering over an icon, it should zoom to 1.2x its original size. The dock should be sleek, user-friendly, and allow for easy rearrangement of icons. The design should be distinct from macOS, offering a more personalized, flexible, and seamless experience on a Windows environment."
+
+
+
+/////////////
+
+Customizable Dock for PC: A fully customizable dock that runs on startup and displays essential applications.
+Customization via JSON File:
+Users can add, delete, and customize icons through a JSON file.
+JSON file will also store settings for icon size, zoom transition (1.2x on hover), and whether the dock should be horizontal or vertical.
+The JSON file will allow users to configure whether the dock should open on startup.
+The JSON file will include file locations for the app icons (black and white icons only).
+Minimal Design: The dock will feature minimalistic black and white icons with no flashy colors.
+Drag-and-Drop Functionality: The dock can be dragged around the screen and customized for position.
+Folder Structure:
+/dock: Main application folder containing executable files.
+/icons: Folder where icon images (in black and white) are stored.
+/config: Folder containing the config.json file, where users can manage icon and dock settings.
+/logs: Folder to store any log files for debugging or usage data.
+
+electron
+
+
+electron-builder or electron-forge
+npm install electron
+

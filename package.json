@@ -1,0 +1,16 @@
+{
+  "name": "my-dock-app",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "start": "electron app/main.js"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}
